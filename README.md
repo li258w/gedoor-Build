@@ -2,13 +2,11 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.21.062920.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.21.062920/legado-3.21.062920.apk) 上次构建时间:2021-07-03 10:01:23
+> 最新构建下载:[legado-3.21.071723.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.21.071723/legado-3.21.071723.apk) 上次构建时间:2021-07-20 07:21:09
 <!--start-->
-> **2021/06/29**
-> * 修复html格式化bug
-> * 订阅界面webView支持css prefers-color-scheme: dark 查询,需webView v76或更高版本
-> * 如webView低于v76可以用js调用activity.isNightTheme()来获取当前是否暗模式
-> * 修复一些书籍导出epub失败 by ag2s20150909
+> **2021/07/16**
+> 1. js扩展函数添加删除本地文件方法
+> 2. js扩展函数对于文件的读写删操作都是相对路径,只能操作阅读缓存内的文件,/android/data/{package}/cache/...
 <!--end-->
   
 1. fork到你自己的仓库
