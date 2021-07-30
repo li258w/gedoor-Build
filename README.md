@@ -2,12 +2,14 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.21.072317.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.21.072317/legado-3.21.072317.apk) 上次构建时间:2021-07-24 14:22:08
+> 最新构建下载:[legado-3.21.072722.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.21.072722/legado-3.21.072722.apk) 上次构建时间:2021-07-30 08:56:03
 <!--start-->
-> **2021/07/23**
+> **2021/07/27**
 > 1. 修复bug
 > 2. web使用api获取封面,不会再出现没有封面的情况
 > 3. 阅读亮度手动调节分别记住白天和夜间模式
+> 4. legado://import/auto?src={url}, 自动识别导入类型
+> 5. 一些优化并更新了一下web首页,感谢沚水, 传书暂时还不好用
 <!--end-->
   
 1. fork到你自己的仓库
