@@ -2,14 +2,12 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.21.090920.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.21.090920/legado-3.21.090920.apk) 上次构建时间:2021-09-11 12:36:02
+> 最新构建下载:[legado-app_3.21.091512.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-app_3.21.091512/legado-app_3.21.091512.apk) 上次构建时间:2021-09-15 19:31:18
 <!--start-->
-> **2021/09/08**
+> **2021/09/15**
 > 
-> 1. 优化离线缓存
-> 2. 听书界面添加登录菜单,和拷贝播放url
-> 3. 详情页添加设置源变量和书籍变量
-> 4. 订阅添加登录菜单,添加设置源变量
+> 1. 修复因标题加入替换和简繁转换导致的缩进问题
+> 2. 如果出现标题不显示是净化规则的问题,可以先关闭净化
 <!--end-->
   
 1. fork到你自己的仓库
