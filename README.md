@@ -2,12 +2,17 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.21.102122.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.21.102122/legado-3.21.102122.apk) 上次构建时间:2021-10-22 03:02:17
+> 最新构建下载:[legado-3.21.102414.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.21.102414/legado-3.21.102414.apk) 上次构建时间:2021-10-25 15:48:55
 <!--start-->
-> **2021/10/21**
+> **2021/10/24**
 > 
-> * 修复自定义封面会因为图片太大崩溃
-> * 修复play版本一个会引起崩溃的bug
+> * 修复夜间模式不随系统变化的bug
+> 
+> **2021/10/22**
+> 
+> * 修复封面
+> * 添加全局字体大小设置
+> * 导入源和规则时可以先编辑再导入
 <!--end-->
   
 1. fork到你自己的仓库
