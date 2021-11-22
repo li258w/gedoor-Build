@@ -2,14 +2,13 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.21.110219.apk](https://github.com/li258w/gedoor-Build/releases/download/legado-3.21.110219/legado-3.21.110219.apk) 上次构建时间:2021-11-04 01:16:30
+> 最新构建下载:[legado-3.21.112020.apk](https://github.com/li258w/gedoor-Build/releases/download/legado-3.21.112020/legado-3.21.112020.apk) 上次构建时间:2021-11-23 04:01:08
 <!--start-->
-> **2021/11/02**
+> **2021/11/20**
 > 
-> * 修复朗读错误时提示不消失的bug
-> * 修复滚动阅读选择文字错位bug by DuShuYuan
-> * 朗读语速调节添加微调按钮
-> * 其它bug修复,最近在高苹果系统,更新比较少
+> * 修复部分平板双页问题
+> * 修复书源太多不能导出和备份的问题
+> * 给txt目录规则添加了一个入口,在书源管理的菜单里面
 <!--end-->
   
 1. fork到你自己的仓库
