@@ -2,13 +2,19 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.21.122920.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.21.122920/legado-3.21.122920.apk) 上次构建时间:2021-12-30 16:08:31
+> 最新构建下载:[legado-3.22.010615.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.010615/legado-3.22.010615.apk) 上次构建时间:2022-01-09 03:33:08
 <!--start-->
-> **2021/12/28**
+> **2022/01/06**
 > 
-> * 用阅读打开本地朗读引擎文件和主体配置文件也可以导入
-> * 缓存图片采用多线程
-> * 本地书籍不在拷贝到私有目录,有权限的会直接打开,没权限的自己选择文件夹保存
+> * 弃用java.getCookie(tag,key)，请使用cookie.getKey(url,key)
+> * js添加java.cacheFile(url, saveTime),缓存网络链接，返回文件内容，可实现代码共用和减少代码量
+> ```js
+> eval(String(java.cacheFile(url)))
+> ```
+> * 设置里增加书籍文件夹配置,方便切换外部书籍保存文件夹
+> * 修复打开Web服务，切出app后很快崩溃 #1489
+> * 修复低版本手机打开本地文件出错的bug #1491
+> * 校验和调试时不保存正文
 <!--end-->
   
 1. fork到你自己的仓库
