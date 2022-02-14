@@ -2,18 +2,16 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.020311.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.020311/legado-3.22.020311.apk) 上次构建时间:2022-02-05 16:57:34
+> 最新构建下载:[legado-3.22.021120.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.021120/legado-3.22.021120.apk) 上次构建时间:2022-02-15 01:03:29
 <!--start-->
-> **2022/02/03**
+> **2022/02/11**
 > 
-> * 字符串大于1024时禁用代码高亮
-> * 修复baseUrl丢失参数的bug
-> * 添加更新bookUrl和更新tocUrl函数
-> * 标题单独净化,防止出现正文标题没了的问题
-> * 修复一个null报错
-> * 修复进度同步bug
-> * 按返回键关闭搜索界面 by Xwite
-> * 其它一些优化 by Xwite
+> * 可以单独给书籍设置朗读tts
+> * 目录界面菜单添加替换开关,开启替换加载时间会长一些
+> * 书源校验添加规则失效分组，更新书源界面帮助文档
+> * 替换规则添加作用于标题和作用于正文
+> * 导出支持本地书籍再次导出
+> * 修复一些bug
 <!--end-->
   
 1. fork到你自己的仓库
