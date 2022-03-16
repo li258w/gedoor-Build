@@ -2,11 +2,14 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.030410.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.030410/legado-3.22.030410.apk) 上次构建时间:2022-03-07 05:12:29
+> 最新构建下载:[legado-3.22.031519.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.031519/legado-3.22.031519.apk) 上次构建时间:2022-03-16 16:41:43
 <!--start-->
-> **2022/03/04**
+> **2022/03/15**
 > 
-> * 修复web端添加同步阅读配置导致的bug
+> * 引入compose包
+> * 书源类型为image的书源,翻译默认为滚动,图片样式默认为FULL
+> * url参数辅助输入
+> * 修复一些bug
 <!--end-->
   
 1. fork到你自己的仓库
