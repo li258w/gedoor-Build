@@ -2,14 +2,12 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.21.112719.apk](https://github.com/li258w/gedoor-Build/releases/download/legado-3.21.112719/legado-3.21.112719.apk) 上次构建时间:2021-12-01 00:50:14
+> 最新构建下载:[legado-3.22.032521.apk](https://github.com/li258w/gedoor-Build/releases/download/legado-3.22.032521/legado-3.22.032521.apk) 上次构建时间:2022-03-26 21:34:27
 <!--start-->
-> **2021/11/27**
+> **2022/03/25**
 > 
-> * 更新到SDK31,android 12
-> * 修复在线朗读引擎新建会替换之前已有的bug
-> * 修复目录界面自动跳转到顶部bug
-> * 修复阿里云在线朗读引擎模板中获取时间的兼容性问题
+> * 分组搜索结果为空是提示是否切换到全部分组搜索
+> * 修复bug
 <!--end-->
   
 1. fork到你自己的仓库
