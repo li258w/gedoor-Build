@@ -2,13 +2,12 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.031722.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.031722/legado-3.22.031722.apk) 上次构建时间:2022-03-20 11:52:01
+> 最新构建下载:[legado-3.22.032521.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.032521/legado-3.22.032521.apk) 上次构建时间:2022-03-29 17:30:26
 <!--start-->
-> **2022/03/17**
+> **2022/03/25**
 > 
-> * 添加仅在wifi下加载网络封面
-> * 修复web书架白条
-> * 换源增加当前源快速定位
+> * 分组搜索结果为空是提示是否切换到全部分组搜索
+> * 修复bug
 <!--end-->
   
 1. fork到你自己的仓库
