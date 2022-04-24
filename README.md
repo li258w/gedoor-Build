@@ -2,14 +2,34 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.033020.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.033020/legado-3.22.033020.apk) 上次构建时间:2022-04-02 08:00:20
+> 最新构建下载:[legado-3.22.042323.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.042323/legado-3.22.042323.apk) 上次构建时间:2022-04-25 01:33:25
 <!--start-->
-> **2022/03/29**
+> **2022/04/23**
 > 
-> * 更新cronet: 100.0.4896.58
-> * tts朗读不在指定为中文,跟随系统设置,因为有些人需要朗读英文,如果朗读不出来可以去tts设置里看看是不是中文
-> * 修复详情也封面背景模糊失效的bug
-> * 优化音频界面定时设定
+> * 修复js问题
+> * 音频界面显示缓冲进度 by ag2s
+> * 修复图片文字缓存bug
+> * 修复在线朗读bug
+> * 修复mlns epub目录识别失败
+> 
+> **2022/04/22**
+> 
+> * 键盘辅助配置加入备份恢复文件
+> * 修复源管理界面添加删除分组不及时显示的bug
+> * 修复其它一些bug
+> * 更新js库
+> 
+> ```
+> 实现 ES6 Object.values Object.entries Object.fromEntries
+> 实现 ES2017 Object.getOwnPropertyDescriptors
+> 添加：支持“catch”中的可选变量绑定
+> 添加：反单引号里`${}`语法支持（用于字符串连接）
+> 添加：equals (==) 等号的支持
+> 添加：NativeArray.subList()
+> 添加：Object.hasOwn
+> 修复：（for of）导出字符串 of前无空格导致语法错误问题
+> 其他一些优化
+> ```
 <!--end-->
   
 1. fork到你自己的仓库
