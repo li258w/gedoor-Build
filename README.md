@@ -2,13 +2,21 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.052113.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.052113/legado-3.22.052113.apk) 上次构建时间:2022-05-21 16:12:48
+> 最新构建下载:[legado-3.22.052723.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.052723/legado-3.22.052723.apk) 上次构建时间:2022-05-29 21:29:33
 <!--start-->
-> **2022/05/21**
+> **2022/05/27**
 > 
-> * 修复更改本地文件后每次打开都刷新目录的bug
-> * 删除一些不必要的权限
-> * 添加WebDav书籍 by qianfanguojin 未完成
+> * 书源详情页规则添加刷新时重新获取目录页链接Url的配置,true or false
+> * 修复bug
+> 
+> **2022/05/26**
+> 
+> * 修复部分txt章节结尾乱码bug
+> * 优化翻页流畅度
+> * js添加des HMac
+> * 登录ui用户信息默认加密方式改变，需要重新登录
+> * 修复图片加载错误时一直重复获取图片导致卡顿的bug
+> * web端优化并添加无限滚动开关 by Xwite Netrvin
 <!--end-->
   
 1. fork到你自己的仓库
