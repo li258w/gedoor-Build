@@ -2,12 +2,18 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.062320.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.062320/legado-3.22.062320.apk) 上次构建时间:2022-06-24 18:32:37
+> 最新构建下载:[legado-3.22.071010.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.071010/legado-3.22.071010.apk) 上次构建时间:2022-07-11 03:34:07
 <!--start-->
-> **2022/06/23**
+> **2022/07/10**
 > 
-> * 更新cronet: 103.0.5060.53
-> * 继续优化webDav导入,改成和本地导入界面一样,可以批量导入
+> * 修复bug
+> 
+> **2022/07/09**
+> 
+> * 书源添加未分组筛选
+> * 修复使用自建WebDav一些bug by 821938089
+> * 修复换源按钮长按只能生效一次的bug
+> * 修复java.post等不能保存cookie的bug
 <!--end-->
   
 1. fork到你自己的仓库
