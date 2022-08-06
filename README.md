@@ -2,13 +2,16 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.061722.apk](https://github.com/li258w/gedoor-Build/releases/download/legado-3.22.061722/legado-3.22.061722.apk) 上次构建时间:2022-06-22 00:42:58
+> 最新构建下载:[legado-3.22.080322.apk](https://github.com/li258w/gedoor-Build/releases/download/legado-3.22.080322/legado-3.22.080322.apk) 上次构建时间:2022-08-07 06:30:25
 <!--start-->
-> **2022/06/16**
+> **2022/08/02**
 > 
-> * 导出使用单线程,导出占用大量内存,并行容易OOM
-> * 导出到WebDav文件夹改为books,方便导入
-> * WebDav导入基本能用了
+> * 更新cronet: 104.0.5112.69
+> * 修复一些bug by 821938089
+> * 备份自定义直链上传规则
+> * 尝试修复epub加载OOM的问题
+> * 图片添加保存按钮
+> * 一些优化
 <!--end-->
   
 1. fork到你自己的仓库
