@@ -2,14 +2,15 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.083120.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.083120/legado-3.22.083120.apk) 上次构建时间:2022-09-05 02:12:39
+> 最新构建下载:[legado-3.22.091719.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.091719/legado-3.22.091719.apk) 上次构建时间:2022-09-18 07:42:58
 <!--start-->
-> **2022/08/31**
+> **2022/09/17**
 > 
-> * 更新cronet: 105.0.5195.68
-> * 修复一些bug
-> * 给书源点赞 by SJJ-dot
-> * 墨水屏模式下，书籍信息页不显示模糊书籍封面作为背景
+> * SDK暂时退回32,解决webView夜间模式不起作用的问题
+> * android studio新版本有bug,快捷方式报错,采用idea编译
+> * 音频从默认未分组移除
+> * 修复图片文字样式错误bug
+> * 修复阅读界面主题bug by 821938089
 <!--end-->
   
 1. fork到你自己的仓库
