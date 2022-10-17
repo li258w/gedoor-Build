@@ -2,17 +2,15 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.22.100921.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.100921/legado-3.22.100921.apk) 上次构建时间:2022-10-13 05:30:24
+> 最新构建下载:[legado-3.22.101712.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.22.101712/legado-3.22.101712.apk) 上次构建时间:2022-10-18 04:50:07
 <!--start-->
-> **2022/10/09**
+> **2022/10/17**
 > 
-> * 添加源编辑输入框最大行数设置
-> * 添加正文阅读界面进度条(本章/整本）设置 by 821938089
-> * 优化下拉加载更多相关界面
-> * 修复横屏竖屏切换后主题改变的bug by 821938089
-> * 优化章节替换净化 by Xwite
-> * 封面支持svg 正文img标签支持svg图片链接 by Xwite
-> * 调整申请设置书籍保存位置的时机 by Xwite
+> * 搜索界面菜单可修改搜索范围
+> * 内置对称加密不再自动转换Hex Base64 by Xwite
+> * 保留之前的对称加密函数,标记为不建议使用
+> * 继续优化本地书籍加载速度
+> * 换源不再更新最新阅读时间 by 821938089
 <!--end-->
   
 1. fork到你自己的仓库
