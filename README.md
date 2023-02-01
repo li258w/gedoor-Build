@@ -2,13 +2,10 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.23.012018.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.012018/legado-3.23.012018.apk) 上次构建时间:2023-01-22 22:27:34
+> 最新构建下载:[legado-3.23.013123.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.013123/legado-3.23.013123.apk) 上次构建时间:2023-02-02 06:38:16
 <!--start-->
-> **2023/01/20**
-> 
-> * web书架不限制最大宽度 by Xwite
-> * 支持android11以上获取存储权限,浏览所有书籍,pro版本不支持,因为要上架play商店google限制这个权限
-> * 一些优化 by Horis
+> **2023/01/31**
+> * web书架: 修复进度bug和章节跳转bug，段落内嵌文字图片懒加载
 <!--end-->
   
 1. fork到你自己的仓库
