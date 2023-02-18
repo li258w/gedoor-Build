@@ -2,10 +2,15 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.23.013123.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.013123/legado-3.23.013123.apk) 上次构建时间:2023-02-02 06:38:16
+> 最新构建下载:[legado-3.23.021621.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.021621/legado-3.23.021621.apk) 上次构建时间:2023-02-18 16:47:36
 <!--start-->
-> **2023/01/31**
-> * web书架: 修复进度bug和章节跳转bug，段落内嵌文字图片懒加载
+> **2023/02/16**
+> 
+> * 更新cronet: 110.0.5481.65
+> * 添加清除 WebView 数据 by Horis
+> * 用到通知的时候才提示通知权限获取
+> * 修改订阅源编辑界面和书源一样
+> * 一些优化 by Horis 和 Xwite
 <!--end-->
   
 1. fork到你自己的仓库
