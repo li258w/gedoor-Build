@@ -2,11 +2,12 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.23.022219.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.022219/legado-3.23.022219.apk) 上次构建时间:2023-02-23 18:07:42
+> 最新构建下载:[legado-3.23.022715.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.022715/legado-3.23.022715.apk) 上次构建时间:2023-02-28 05:40:33
 <!--start-->
-> **2023/02/22**
+> **2023/02/27**
 > 
-> * 添加自定义字典规则
+> * 优化新建书源和订阅源的默认值和退出时的修改判断
+> * 优化分组更新时界面刷新
 > * 一些优化 by Horis
 <!--end-->
   
