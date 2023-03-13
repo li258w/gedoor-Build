@@ -2,13 +2,14 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.23.030400.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.030400/legado-3.23.030400.apk) 上次构建时间:2023-03-04 10:22:40
+> 最新构建下载:[legado-3.23.031314.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.031314/legado-3.23.031314.apk) 上次构建时间:2023-03-13 23:48:03
 <!--start-->
-> **2023/03/03**
+> **2023/03/13**
 > 
-> * 朗读速度添加数值显示
-> * 章节进度添加xx/yyy格式
-> * 远程书籍单独配置webDav,多个webDav看情况再添加
+> * 文件类书源支持zip 7z rar4解压
+> * java.ajax(url: Any)自动判断是列表还是字符串
+> * 修复一些bug
+> * 其中一些更新由 Xwite, Horis, ag2s20150909 提供
 <!--end-->
   
 1. fork到你自己的仓库
