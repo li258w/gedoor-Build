@@ -2,14 +2,17 @@
 
 > 默认从最新发布的tag构建,每次构建会自动清空18PlusList.txt
 
-> 最新构建下载:[legado-3.23.031314.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.031314/legado-3.23.031314.apk) 上次构建时间:2023-03-13 23:48:03
+> 最新构建下载:[legado-3.23.032123.apk](https://github.com/nobk/gedoor-Build/releases/download/legado-3.23.032123/legado-3.23.032123.apk) 上次构建时间:2023-03-22 00:33:36
 <!--start-->
-> **2023/03/13**
+> **2023/03/21**
 > 
-> * 文件类书源支持zip 7z rar4解压
-> * java.ajax(url: Any)自动判断是列表还是字符串
-> * 修复一些bug
-> * 其中一些更新由 Xwite, Horis, ag2s20150909 提供
+> * 修复书签界面删除条目后界面错乱bug
+> * 一些带有搜索框的界面自动隐藏软键盘
+> * 本地书籍和远程书籍导入界面支持压缩包
+> * 内置了两个直链上传配置,可以通过导入默认切换
+> * 修复无法导入不在数组内的单个书源的本地文件
+> * getVariable() 默认返回 ""
+> * 其中一些更新由 Xwite, Horis提供
 <!--end-->
   
 1. fork到你自己的仓库
