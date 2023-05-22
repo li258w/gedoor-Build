@@ -28,9 +28,21 @@ jobs:
           git clone $APP_GIT_URL $APP_WORKSPACE
           cd $APP_WORKSPACE
           git checkout $LATEST_TAG 
-          echo ::set-output name=if_release::true
+          echo "if_release=true" >>$GITHUB_OUTPUT
         fi
-          
+        
+    - name: setup JDK 17
+      if: steps.check_release.outputs.if_release == 'true'
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: 17
+        
+    - name: setup Gradle
+      if: steps.check_release.outputs.if_release == 'true'
+      uses: gradle/gradle-build-action@v2.4.2
+      
+        
     - name: build apk
       id: build_apk
       if: steps.check_release.outputs.if_release == 'true'
@@ -47,7 +59,7 @@ jobs:
       run: |
         function set_env() { echo "$1=$2" >> $GITHUB_ENV; }
         if [ -f $APP_BUILD_APK ]; then
-            echo ::set-output name=if_publish::true
+            echo "if_publish=true" >>$GITHUB_OUTPUT
             set_env APP_RELEASE_NAME $APP_UPLOAD_NAME.apk
             set_env APP_RELEASE      $APP_BUILD_APK
         fi
